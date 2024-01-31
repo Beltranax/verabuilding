@@ -326,6 +326,7 @@ const Portfolio = () => {
             objectFit='cover'
           />
         </div>
+
       </div>
       
     </div>
