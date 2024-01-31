@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className='grid grid-rows-none md:grid-cols-5 p-4 gap-4'>
         <div className='w-full h-full col-span-2 md:col-span-3 row-span-2'>
           <Image
-            src='/../public/img-1.jpg'
+            src='/images/img-1.jpg'
             alt='/'
             layout='responsive'
             width='677'
@@ -17,7 +17,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-2.jpg'
+            src='/images/img-2.jpg'
             alt='/'
             width='215'
             height='217'
@@ -27,7 +27,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-3.jpg'
+            src='/images/img-3.jpg'
             alt='/'
             width='215'
             height='217'
@@ -37,7 +37,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-4.jpg'
+            src='/images/img-4.jpg'
             alt='/'
             width='215'
             height='217'
@@ -47,7 +47,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-1.jpg'
+            src='/images/img-5.jpg'
             alt='/'
             width='215'
             height='217'
@@ -57,7 +57,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-5.jpg'
+            src='/images/img-6.jpg'
             alt='/'
             width='215'
             height='217'
@@ -67,7 +67,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-6.jpg'
+            src='/images/img-7.jpg'
             alt='/'
             width='215'
             height='217'
@@ -77,7 +77,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-7.jpg'
+            src='/images/img-8.jpg'
             alt='/'
             width='215'
             height='217'
@@ -87,7 +87,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-8.jpg'
+            src='/images/img-9.jpg'
             alt='/'
             width='215'
             height='217'
@@ -97,7 +97,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-9.jpg'
+            src='/images/img-10.jpg'
             alt='/'
             width='215'
             height='217'
@@ -107,7 +107,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-10.jpg'
+            src='/images/img-11.jpg'
             alt='/'
             width='215'
             height='217'
@@ -117,7 +117,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-11.jpg'
+            src='/images/img-12.jpg'
             alt='/'
             width='215'
             height='217'
@@ -127,7 +127,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-12.jpg'
+            src='/images/img-13.jpg'
             alt='/'
             width='215'
             height='217'
@@ -137,7 +137,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-13.jpg'
+            src='/images/img-14.jpg'
             alt='/'
             width='215'
             height='217'
@@ -147,7 +147,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-14.jpg'
+            src='/images/img-15.jpg'
             alt='/'
             width='215'
             height='217'
@@ -157,7 +157,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-15.jpg'
+            src='/images/img-16.jpg'
             alt='/'
             width='215'
             height='217'
@@ -167,7 +167,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-16.jpg'
+            src='/images/img-17.jpg'
             alt='/'
             width='215'
             height='217'
@@ -177,7 +177,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-17.jpg'
+            src='/images/img-18.jpg'
             alt='/'
             width='215'
             height='217'
@@ -187,7 +187,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-18.jpg'
+            src='/images/img-19.jpg'
             alt='/'
             width='215'
             height='217'
@@ -197,7 +197,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-19.jpg'
+            src='/images/img-20.jpg'
             alt='/'
             width='215'
             height='217'
@@ -207,7 +207,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-20.jpg'
+            src='/images/img-21.jpg'
             alt='/'
             width='215'
             height='217'
@@ -217,7 +217,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-21.jpg'
+            src='/images/img-22.jpg'
             alt='/'
             width='215'
             height='217'
@@ -227,7 +227,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-22.jpg'
+            src='/images/img-23.jpg'
             alt='/'
             width='215'
             height='217'
@@ -237,7 +237,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-23.jpg'
+            src='/images/img-24.jpg'
             alt='/'
             width='215'
             height='217'
@@ -247,7 +247,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-24.jpg'
+            src='/images/img-25.jpg'
             alt='/'
             width='215'
             height='217'
@@ -257,7 +257,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-25.jpg'
+            src='/images/img-26.jpg'
             alt='/'
             width='215'
             height='217'
@@ -267,7 +267,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-26.jpg'
+            src='/images/img-27.jpg'
             alt='/'
             width='215'
             height='217'
@@ -277,7 +277,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-27.jpg'
+            src='/images/img-28.jpg'
             alt='/'
             width='215'
             height='217'
@@ -287,17 +287,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-28.jpg'
-            alt='/'
-            width='215'
-            height='217'
-            layout='responsive'
-            objectFit='cover'
-          />
-        </div>
-        <div className='w-full h-full'>
-          <Image
-            src='/../public/img-29.jpg'
+            src='/images/img-29.jpg'
             alt='/'
             width='215'
             height='217'
@@ -308,7 +298,7 @@ const Portfolio = () => {
 
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-30.jpg'
+            src='/images/img-30.jpg'
             alt='/'
             width='215'
             height='217'
@@ -318,7 +308,7 @@ const Portfolio = () => {
         </div>
         <div className='w-full h-full'>
           <Image
-            src='/../public/img-31.jpg'
+            src='/images/img-31.jpg'
             alt='/'
             width='215'
             height='217'
