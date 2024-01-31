@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import Logo from '../public/logo.png';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -31,22 +33,29 @@ const Navbar = () => {
     >
       <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
         <Link href='/'>
-          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl'>
-            Captur
-          </h1>
+          <div className="rounded bg-[#ffffff] w-[100px] h-[75px] lg:w-[100px] lg:h-[75px] relative">
+            <Image src={Logo} alt="Logo" width={100} height={75} />
+          </div>
         </Link>
         <ul style={{ color: `${textColor}` }} className='hidden sm:flex'>
           <li className='p-4'>
             <Link href='/'>Home</Link>
           </li>
-          <li className='p-4'>
+          {/* <li className='p-4'>
             <Link href='/#gallery'>Gallery</Link>
+          </li> */}
+          <li className='p-4'>
+            <Link href='/#portfolio'>Projects</Link>
           </li>
           <li className='p-4'>
-            <Link href='/work'>Work</Link>
+            <Link href='/#careers'>Careers</Link>
           </li>
-          <li className='p-4'>
-            <Link href='/contact'>Contact</Link>
+          <li>
+          <Link href="mailto:makeupbyadylu@gmail.com" target={"_blank"}>
+          <div className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-300 to-green-900 hover:bg-slate-200 text-white'>
+            <h2 className='font-bold'>CONTACT US</h2>
+          </div>
+        </Link>
           </li>
         </ul>
 
@@ -70,14 +79,21 @@ const Navbar = () => {
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/'>Home</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+            {/* <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
               <Link href='/#gallery'>Gallery</Link>
+            </li> */}
+            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+              <Link href='/#portfolio'>Portfolio</Link>
             </li>
             <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/work'>Work</Link>
+              <Link href='/#careers'>Careers</Link>
             </li>
-            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-              <Link href='/contact'>Contact</Link>
+            <li>
+            <Link href="mailto:makeupbyadylu@gmail.com" target={"_blank"}>
+          <div className='px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-300 to-green-900 hover:bg-slate-200 text-white'>
+            <h2 className='text-xl font-bold'>CONTACT US</h2>
+          </div>
+        </Link>
             </li>
           </ul>
         </div>
