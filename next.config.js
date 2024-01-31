@@ -5,6 +5,7 @@ const nextConfig = {
 
 module.exports = {
   images: {
+    unoptomized: true,
     domains: [
       'images.unsplash.com',
     ]
