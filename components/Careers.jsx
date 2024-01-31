@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Careers = () => {
   return (
     <div id="careers" className='max-w-[1240px] m-auto p-4 '>
-        <h1 className='text-2xl font-bold text-center p-4'>Let's work together</h1>
+        <h1 className='text-2xl font-bold text-center p-4'>Let&apos;s work together</h1>
         <form className='max-w-[600px] m-auto'>
             <div className='grid grid-cols-2 gap-2'>
                 <input className='border shadow-lg p-3' type="text" placeholder='Name' />
